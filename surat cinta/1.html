@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <title>ayang dan bby ❤️</title>
+    <link rel="stylesheet" href="surat cinta\stlye.css">
+
+</head>
+<div class="hearts"></div>
+<script>
+const heartsContainer = document.querySelector('.hearts');
+
+function createHeart() {
+    const heart = document.createElement('div');
+    heart.className = 'heart';
+    heart.innerHTML = '💖';
+
+    heart.style.left = Math.random() * 100 + 'vw';
+    heart.style.fontSize = (16 + Math.random() * 20) + 'px';
+    heart.style.animationDuration = (3 + Math.random() * 3) + 's';
+
+    heartsContainer.appendChild(heart);
+
+    setTimeout(() => heart.remove(), 6000);
+}
+
+setInterval(createHeart, 300);
+</script>
+</body>
+
+<body>
+
+<header>
+    <div class="hearts"></div>
+    <h1>📸 Kutut and ayang momekk</h1>
+    <p>gambar selfiee hehehhe 💖</p>
+    <div class="bg-shape shape1"></div>
+    <div class="bg-shape shape2"></div>
+    <div class="bg-shape shape3"></div>
+
+</header>
+<div class="gallery">
+
+    <div class="card">
+        <img src="c:photo_2026-02-03_14-04-49.jpg" alt="Kenangan 1">
+        <p>💖 ini kutut and ayangg</p>
+    </div>
+
+    <div class="card">
+        <img src="photo_2026-02-03_14-05-04.jpg" alt="Kenangan 2">
+        <p>🌸 cantikkannnnnnnnnn</p>
+    </div>
+
+    
+    <div class="card">
+        <img src="photo_2026-02-03_14-05-13.jpg" alt="Kenangan 2">
+        <p>🌸 heheheheheh lope uu</p>
+    </div>
+
+    
+    <div class="card">
+        <img src="IMG_20250131_173409.jpg" alt="Kenangan 2">
+        <p>🌸 bila la ulih sama sama baka ketu hermm</p>
+    </div>
+
+
+
+</body>
+</html>
+
+

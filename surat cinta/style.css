@@ -1,0 +1,11 @@
+body.login {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+
+    background: url("c:\Users\IRENA\Downloads\cute-cat-wear-dino-costume-600nw-2457633459.webp") no-repeat center center/cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
